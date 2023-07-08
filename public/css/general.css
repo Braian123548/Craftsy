@@ -1,0 +1,11 @@
+body {
+ background-image: url('/img/bg-2.png');
+}
+
+@media (width>480px) {
+    body {
+        margin: 2vh 10vw;
+    }
+       
+
+}

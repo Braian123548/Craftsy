@@ -1,0 +1,165 @@
+/*Phone Header*/
+
+.home-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 81, 0);
+    padding: 1rem;
+}
+
+.home-header a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+/*Phone Main*/
+
+    
+.home-main-contenedor {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.home-main-contenedor button {
+    background-color: rgb(250, 63, 38);
+    padding: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.home-main-contenedor-phone {
+    margin-bottom: 1rem;
+    width: 300px;
+}
+
+
+/*Phone Aside*/
+
+.aside-publicidad {
+    display: flex;
+    flex-direction: column;
+}
+
+aside h2 {
+    text-transform: capitalize;
+    background-color: white;
+    padding: 0.5rem;
+    border: solid 1px lightblue;
+}
+
+aside h2:first-child {
+    margin-top: 1rem;
+}
+
+ 
+.home-aside-tutoriales div {
+    display: flex;
+    background-color: white;
+    padding: 0.5rem;
+    border: solid 1px lightblue;
+}
+
+
+@media (width>480px) {
+    
+    /*TABLET Y PC HEADER*/
+
+
+    .home-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 81, 0);
+        padding: 1rem;
+    }
+    
+    .home-header-logo-nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .home-header-logo-nav img {
+        margin-right: 1rem;
+    }
+    
+    .home-header a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: white;
+        margin-left: 1rem;
+        font-weight: bold;
+    }
+     
+    /*TABLET Y PC MAIN*/
+    
+    .home-main {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .home-main-contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        background-color: white;
+        justify-content: space-around;
+        align-content: center;
+        padding: 1rem;
+        text-align: left;
+    }
+    
+    
+    .home-main-contenedor button {
+        background-color: rgb(250, 63, 38);
+        padding: 0.5rem;
+        border: none;
+        font-size: 1rem;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .home-main-contenedor-phone {
+        width: 300px;
+        margin-bottom: 1rem;
+    }
+    
+    /*TABLET Y PC ASIDE*/
+    
+    .home-aside-tutoriales div {
+        display: flex;
+        background-color: white;
+        padding: 0.5rem;
+        border: solid 1px lightblue;
+    }
+
+
+    .aside-publicidad {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    aside h2 {
+        text-transform: capitalize;
+        background-color: white;
+        padding: 0.5rem;
+        border: solid 1px lightblue;
+    }
+    
+    aside h2:first-child {
+        margin-top: 1rem;
+    }
+    
+
+   
+}
